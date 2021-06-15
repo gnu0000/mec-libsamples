@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Gnu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP634.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AS_LIB" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\SRC\Libs\Gnu\PKC\PKC.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP634.tmp" 
+Creating temporary file "C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP635.tmp" with contents
+[
+/nologo /out:"Debug\Gnu_Debug.lib" 
+.\Debug\ColoredView.obj
+.\Debug\DynaView.obj
+.\Debug\GZFile.obj
+.\Debug\gzrc4.obj
+.\Debug\SecureZipArchive.obj
+.\Debug\unzip.obj
+.\Debug\zip.obj
+.\Debug\StdAfx.obj
+.\Debug\CSV.obj
+.\Debug\Expr.obj
+.\Debug\rc4.obj
+.\Debug\Registry.obj
+.\Debug\PKC.obj
+.\Debug\http.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP635.tmp"
+<h3>Output Window</h3>
+Compiling...
+PKC.cpp
+Creating library...
+Creating temporary file "C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP637.bat" with contents
+[
+@echo off
+if  not  defined  ITIINC  echo  You  need  to  set  the  ITIINC  environment  variable!
+if  not  defined  ITILIB  echo  You  need  to  set  the  ITILIB  environment  variable!
+if  defined  ITIINC  copy  .\Config\G_Config.h  %ITIINC%\
+if  defined  ITIINC  copy  .\Dynaview\G_ColoredView.h  %ITIINC%\
+if  defined  ITIINC  copy  .\Dynaview\G_DynaView.h  %ITIINC%\
+if  defined  ITIINC  copy  .\Expr\G_Expr.h  %ITIINC%\
+if  defined  ITIINC  copy  .\Gzfile\G_GZFile.h  %ITIINC%\
+if  defined  ITIINC  copy  .\Gzfile\G_SecureZipArchive.h  %ITIINC%\
+if  defined  ITIINC  copy  .\Gzfile\zlib.h  %ITIINC%\
+if  defined  ITIINC  copy  .\Http\G_Http.h  %ITIINC%\
+if  defined  ITIINC  copy  .\PKC\G_PKC.h  %ITIINC%\
+if  defined  ITIINC  copy  .\Rc4\G_Rc4.h  %ITIINC%\
+if  defined  ITIINC  copy  .\String\G_csv.h  %ITIINC%\
+if  defined  ITILIB  copy  .\Debug\*.lib  %ITILIB%\
+]
+Creating command line "C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP637.bat"
+
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+The system cannot find the file specified.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+.\Debug\Gnu_Debug.lib
+        1 file(s) copied.
+<h3>
+--------------------Configuration: PKCTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP638.tmp" with contents
+[
+PGPsdkStatic_Debug.lib rpcrt4.lib gnulib_debug.lib gnu_debug.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/PKCTest.pdb" /debug /machine:I386 /out:"Debug/PKCTest.exe" /pdbtype:sept 
+.\Debug\PKCTest.obj
+.\Debug\StdAfx.obj
+.\Debug\PKCTest.res
+\SRC\Libs\Gnu\Debug\Gnu_Debug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP638.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+PKCTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DynaTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/DynaTest.res" /d "_DEBUG" "C:\src\LibSamples\GNU_DynaTest\DynaTest.rc"" 
+Creating temporary file "C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP4FB.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "c:\dev\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/DynaTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\src\LibSamples\GNU_DynaTest\ChildFrm.cpp"
+"C:\src\LibSamples\GNU_DynaTest\DynaTest.cpp"
+"C:\src\LibSamples\GNU_DynaTest\DynaTestDoc.cpp"
+"C:\src\LibSamples\GNU_DynaTest\DynaTestView.cpp"
+"C:\src\LibSamples\GNU_DynaTest\MainFrm.cpp"
+"C:\src\LibSamples\GNU_DynaTest\SampleDialog.cpp"
+"C:\src\LibSamples\GNU_DynaTest\SamplePropertySheet.cpp"
+"C:\src\LibSamples\GNU_DynaTest\SamplePropPage1.cpp"
+"C:\src\LibSamples\GNU_DynaTest\SamplePropPage2.cpp"
+"C:\src\LibSamples\GNU_DynaTest\SettingsDialog.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP4FB.tmp" 
+Creating temporary file "C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP4FC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "c:\dev\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/DynaTest.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\src\LibSamples\GNU_DynaTest\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP4FC.tmp" 
+Creating temporary file "C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP4FD.tmp" with contents
+[
+Gnu_Debug.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DynaTest.pdb" /debug /machine:I386 /out:"Debug/DynaTest.exe" /pdbtype:sept /libpath:"c:\dev\lib" 
+.\Debug\ChildFrm.obj
+.\Debug\DynaTest.obj
+.\Debug\DynaTestDoc.obj
+.\Debug\DynaTestView.obj
+.\Debug\MainFrm.obj
+.\Debug\SampleDialog.obj
+.\Debug\SamplePropertySheet.obj
+.\Debug\SamplePropPage1.obj
+.\Debug\SamplePropPage2.obj
+.\Debug\SettingsDialog.obj
+.\Debug\StdAfx.obj
+.\Debug\DynaTest.res
+]
+Creating command line "link.exe @C:\DOCUME~1\CRAIGF~1\LOCALS~1\Temp\RSP4FD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+DynaTest.cpp
+DynaTestDoc.cpp
+DynaTestView.cpp
+MainFrm.cpp
+SampleDialog.cpp
+SamplePropertySheet.cpp
+SamplePropPage1.cpp
+SamplePropPage2.cpp
+SettingsDialog.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DynaTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

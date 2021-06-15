@@ -1,0 +1,61 @@
+// e2.cpp : Defines the class behaviors for the application.
+//
+
+#include "stdafx.h"
+#include "e2.h"
+#include "e2Dlg.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// CE2App
+
+BEGIN_MESSAGE_MAP(CE2App, CWinApp)
+	//{{AFX_MSG_MAP(CE2App)
+	//}}AFX_MSG
+	ON_COMMAND(ID_HELP, CWinApp::OnHelp)
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CE2App construction
+
+CE2App::CE2App()
+{
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// The one and only CE2App object
+
+CE2App theApp;
+
+/////////////////////////////////////////////////////////////////////////////
+// CE2App initialization
+
+BOOL CE2App::InitInstance()
+{
+	// Standard initialization
+
+#ifdef _AFXDLL
+	Enable3dControls();			// Call this when using MFC in a shared DLL
+#else
+	Enable3dControlsStatic();	// Call this when linking to MFC statically
+#endif
+
+	CE2Dlg dlg;
+	m_pMainWnd = &dlg;
+	int nResponse = dlg.DoModal();
+	if (nResponse == IDOK)
+	{
+	}
+	else if (nResponse == IDCANCEL)
+	{
+	}
+
+	// Since the dialog has been closed, return FALSE so that we exit the
+	//  application, rather than start the application's message pump.
+	return FALSE;
+}

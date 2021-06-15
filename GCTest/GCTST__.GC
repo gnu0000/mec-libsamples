@@ -1,0 +1,30 @@
+#include <gnusys.gh>
+
+
+int PrntLine (int iLine)
+	{
+	int j;
+
+	for (j=20; j>iLine; j--)
+		printf (" ");
+	for (j=0; j<=iLine*2; j++)
+		printf (j%2 ? "." : "*");
+	printf ("\r\n");
+	}
+
+int main (int argc, char *argv[])
+   {
+   int  i, j;
+
+	printf ("This is a test!\r\n");
+
+	for (i=0; i<2; i++)
+		{
+		for (j=0; j<20; j++)
+			PrntLine (j);
+		for (j=20; j>0; j--)
+			PrntLine (j-1);
+		}
+   }
+
+

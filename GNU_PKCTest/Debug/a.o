@@ -1,0 +1,87 @@
+[Sign id=cacer]                                          [Sign id=craig_g]
+----------------------------------------------------------------------------------------------------------------------------------------
+CAcert User Cert <craig@infotechfl.co                    Craig_Goodkey_STA-001
+   AlgorithmID            : 1                               AlgorithmID            : 17
+   Flags                  : invalid property name           Flags                  : 3
+   Features               : invalid property name           Features               : 1
+----------------------------------------------------------------------------------------------------------------------------------------
+Info returned: 0 [invalid property name]                 -------------------------------------------------------------------------------
+Done.                                                          IsSecret               : TRUE
+                                                               IsAxiomatic            : FALSE
+                                                               IsRevoked              : FALSE
+                                                               IsDisabled             : FALSE
+                                                               IsNotCorrupt           : TRUE
+                                                               IsExpired              : FALSE
+                                                               NeedsPassphrase        : TRUE
+                                                               HasUnverifiedRevocation: FALSE
+                                                               CanEncrypt             : TRUE
+                                                               CanDecrypt             : TRUE
+                                                               CanSign                : FALSE
+                                                               CanVerify              : FALSE
+                                                               IsEncryptionKey        : TRUE
+                                                               IsSigningKey           : FALSE
+                                                               IsSecretShared         : FALSE
+                                                               IsRevocable            : TRUE
+                                                               HasThirdPartyRevocation: FALSE
+                                                               HasCRL                 : FALSE
+                                                               IsOnToken              : FALSE
+                                                               AlgorithmID            : 16
+                                                               Bits                   : 1024
+                                                               Trust                  : 2
+                                                               Validity               : 0
+                                                               Flags                  : 12
+                                                               HashAlgorithmID        : 2
+                                                               Version                : 4
+                                                               TokenNum               : -1
+                                                               Features               : invalid property name
+                                                         -------------------------------------------------------------------------------
+                                                         -------------------------------------------------------------------------------
+                                                               IsRevoked              : FALSE
+                                                               IsNotCorrupt           : TRUE
+                                                               IsExpired              : FALSE
+                                                               NeedsPassphrase        : TRUE
+                                                               HasUnverifiedRevocation: FALSE
+                                                               IsRevocable            : TRUE
+                                                               HasThirdPartyRevocation: FALSE
+                                                               IsOnToken              : FALSE
+                                                               AlgorithmID            : 16
+                                                               Bits                   : 1024
+                                                               Version                : 4
+                                                               Flags                  : 12
+                                                         -------------------------------------------------------------------------------
+                                                         Info returned: 0 [No Error]
+                                                         Done.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

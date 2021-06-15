@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[ZT.dsp]
+SCC_Aux_Path = "\\Ebs-vss\NEW_VSS\"
+SCC_Project_Name = "$/Samples/GNU_ZipTest", TEEAAAAA

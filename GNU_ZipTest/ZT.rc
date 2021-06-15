@@ -1,0 +1,271 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ZT.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ZT.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ZT"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ZT Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2000",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_ZT_DIALOG DIALOGEX 0, 0, 327, 261
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "GZ/Zip Test"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Source File #1:",IDC_STATIC,9,6,53,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_INFILE1,65,6,192,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BROWSE1,271,7,50,14
+    RTEXT           "Source File #2:",IDC_STATIC,9,25,53,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_INFILE2,65,25,192,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BROWSE2,271,26,50,14
+    RTEXT           "Source File #3:",IDC_STATIC,9,44,53,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_INFILE3,65,44,192,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BROWSE3,271,44,50,14
+    RTEXT           "Archive File:",IDC_STATIC,9,73,53,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_OUTFILE,65,73,192,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BROWSE4,271,74,50,14
+    RTEXT           "Password:",IDC_STATIC,9,94,53,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_PASSWORD,65,94,192,14,ES_AUTOHSCROLL
+    GROUPBOX        "Tests",IDC_STATIC,1,111,325,130
+    RTEXT           "GZip:",IDC_STATIC,6,124,44,13,SS_CENTERIMAGE
+    PUSHBUTTON      "?",IDC_Q1,51,124,11,13
+    PUSHBUTTON      "Defaults",IDC_DEFAULTS1,69,124,36,13
+    DEFPUSHBUTTON   "GZip",IDC_GZ,110,124,45,13
+    DEFPUSHBUTTON   "UnGZip",IDC_UNGZ,161,124,45,13
+    LTEXT           "(Also Rc4 encrypted if password not blank)",IDC_STATIC,
+                    213,119,107,20
+    CONTROL         "",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | SS_SUNKEN | 
+                    WS_GROUP,7,142,311,2
+    RTEXT           "Rc4:",IDC_STATIC,6,151,44,13,SS_CENTERIMAGE
+    PUSHBUTTON      "?",IDC_Q2,51,151,11,13
+    PUSHBUTTON      "Defaults",IDC_DEFAULTS2,69,151,36,13
+    DEFPUSHBUTTON   "Crypt",IDC_RC4,110,151,45,13
+    DEFPUSHBUTTON   "un-Crypt",IDC_UNRC4,161,151,45,13
+    LTEXT           "RC4 Encrypt file",IDC_STATIC,213,151,107,11
+    CONTROL         "",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | SS_SUNKEN | 
+                    WS_GROUP,9,170,311,2
+    RTEXT           "Zip:",IDC_STATIC,6,182,44,13,SS_CENTERIMAGE
+    PUSHBUTTON      "?",IDC_Q3,51,182,11,13
+    PUSHBUTTON      "Defaults",IDC_DEFAULTS3,69,182,36,13
+    DEFPUSHBUTTON   "Zip",IDC_ZIP,110,182,45,13
+    DEFPUSHBUTTON   "UnZip",IDC_UNZIP,161,182,45,13
+    CONTROL         "Strip path on filenames",IDC_STRIPPATH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,213,174,89,10
+    LTEXT           "With or without a password. (Passworded zips are not real zips)",
+                    IDC_STATIC,213,186,111,16
+    RTEXT           "Gzip/rc4/Zip:",IDC_STATIC,6,216,44,13,SS_CENTERIMAGE
+    PUSHBUTTON      "?",IDC_Q4,51,216,11,13
+    PUSHBUTTON      "Defaults",IDC_DEFAULTS4,69,216,36,13
+    DEFPUSHBUTTON   "SecureZip",IDC_ZIP3,110,216,45,13
+    DEFPUSHBUTTON   "SecureUnzip",IDC_UNZIP3,161,216,45,13
+    LTEXT           "Gzipped, rc4 encrypted, zip files.  These are valid zips",
+                    IDC_STATIC,213,214,92,23
+    PUSHBUTTON      "Quit",IDCANCEL,275,244,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | SS_SUNKEN | 
+                    WS_GROUP,7,206,311,2
+END
+
+IDD_INFODLG DIALOG DISCARDABLE  0, 0, 269, 137
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,105,119,50,14
+    EDITTEXT        IDC_EDIT,3,3,260,110,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ZT MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ZT\0"
+            VALUE "LegalCopyright", "Copyright (C) 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ZT.EXE\0"
+            VALUE "ProductName", "ZT Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ZT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 320
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 254
+    END
+
+    IDD_INFODLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About ZT..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ZT.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

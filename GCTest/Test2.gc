@@ -1,0 +1,8 @@
+#include <gnusys.gh>
+
+int main (int argc, char *argv[])
+   {
+	HWND hWnd = GetWindow (0);
+	MoveWindow (hWnd, 0, 0, 500, 400, TRUE);
+   }
+

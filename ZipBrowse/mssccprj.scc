@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[ZBrowse.dsp]
+SCC_Aux_Path = "\\ebs_vss\c\vs"
+SCC_Project_Name = "$/Samples/GNU_ZipTest0", MDEAAAAA
