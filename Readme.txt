@@ -13,3 +13,5 @@
    GNU_PKCTest ......... Test PGP PKI
    GNU_ZBrowse ......... Zip browser test
    GNU_ZipTest ......... Shows GZ and Zip classes with/wo encryption options.
+   
+   https://craig-fitzgerald.com/
